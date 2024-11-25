@@ -1,3 +1,4 @@
+<?php require_once("connect.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +32,7 @@
             $password = $_GET["password"];
         }
         if(isset($_GET['signin'])){
-            header("Location: localhost:8000/user/$username");
+            
         }
     ?>
 </body>
