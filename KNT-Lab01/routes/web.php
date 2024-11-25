@@ -61,3 +61,7 @@ Route::get('name-constraint/{name}', function($name) {
 Route::get('id-constraint/{id}', function($id) {
     return "<h1>Route Constraint [0-9]</h1>";
 }) -> where('id', '[0-9]');
+
+Route::get('/login', function(){
+    return view('login');
+}); 
