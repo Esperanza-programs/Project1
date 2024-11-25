@@ -11,6 +11,7 @@ class PageController extends Controller
     }
 
     public function about(){
+        print_r(route("home"));
         return view("about");
     }
 }
