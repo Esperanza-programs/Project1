@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/greeting', function(){
     return "<h1>Hello World!</h1>";
@@ -65,3 +65,5 @@ Route::get('id-constraint/{id}', function($id) {
 Route::get('/login', function(){
     return view('login');
 }); 
+
+Route::get('/', 'HomeController@show');

@@ -32,6 +32,8 @@
             $password = $_GET["password"];
         }
         if(isset($_GET['signin'])){
+            $accountInfo = $conn -> query('select * from user');
+            $accountInfo = $accountInfo -> fetch();
             
         }
     ?>
