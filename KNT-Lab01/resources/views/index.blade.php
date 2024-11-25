@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kim Ngọc Tâm</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
 </head>
 <body>
-    <h1>Tiêu đề cơ bản</h1>
-    <p>Đây là 1 đoạn để kiểm tra composter!</p>
+    <h1>This is Home!</h1>
+    @yield('content')
 </body>
 </html>
