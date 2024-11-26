@@ -1,51 +1,93 @@
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     .nav-bar{
         font-family: 'Roboto', sans-serif;
         font-size: 0.8em;
         font-weight: 500;
         display: flex;
-        margin-left: 11%;
-        margin-right: 12%;
-        padding-inline-start: 22%;
-        height: 50px;
+        height: 70px;
     }
-    .nav-bar .options{
+    .nav-bar .blank{
+        background-color: #464646;
+        width: 15%;
+        height: auto;
+    }
+    .nav-bar .main{
+        width: 70%;
+        height: auto;
         display: flex;
-        gap: 2em;
         align-items: center;
+        gap: 1em;
     }
-    .nav-bar .options a{
+    .nav-bar .main .side1{
+        display: flex;
+        gap: 3em;
+    }
+    .nav-bar .main .side1 .options{
+        padding-left: 23em;
+        display: flex;
+        gap: 1.5em;
+    }
+    .nav-bar .main .side1 .options a{
         text-decoration: none;
-        color: #111;
+        color: gray;
         transition: all 0.3s ease;
     }
-    .nav-bar .options i{
+    .nav-bar .main .side1 .options a:hover{
         color: rgba(96, 75, 8, 0.799);
     }
-    .nav-bar .search-bar{
+    .nav-bar .main .side1 .options i{
+        color: rgba(96, 75, 8, 0.799);
+    }
+    .nav-bar .main .side1 .search-bar{
         display: flex;
         align-items: center;
-        margin-left: 5%;
+        gap: 0;
+        border-bottom: #ddd 1px solid;
+        width: 22em;
     }
-    .nav-bar .search-bar .search-btn{
+    .nav-bar .main .side1 .search-bar .search-btn{
         border: none;
         background-color: #fff;
-        height: 1.5em;
         cursor: pointer;
+        font-size: 1.5em;
+        padding-bottom: 0.3em;
     }
-    .nav-bar .search-bar .search-box{
+    .nav-bar .main .side1 .search-bar .search-box{
         border: none;
-        height: 1.5em;
         outline-color: #fff;
+        font-size: 1.1em;
+        padding-bottom: 0.3em;
     }
+    .nav-bar .main .cart-btn{
+        margin-left: 0;
+        height: 70px;
+        width: 20.5em;
+        border: none;
+        background-color: rgba(96, 75, 8, 0.799);
+        color: #fff;
+        cursor: pointer;
+    }   
+    
 </style>
 <nav class="nav-bar">
-    <div class="options">
-        <a href="" class="login"><i class="fa-solid fa-user"></i> Đăng nhập</a>
-        <a href="" class="purchase"><i class="fa-solid fa-check"></i> Thanh toán</a>
-    </div>
-    <div class="search-bar">
-        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-        <input type="text" class="search-box" placeholder="Tìm kiếm sản phẩm">
-    </div>
+    <?php
+        $count = 0;
+        $money = 0;    
+    ?>
+    <div class="blank"></div>
+    <div class="main">
+        <div class="side1">
+            <div class="options">
+                <a href="" class="login"><i class="fa-solid fa-user"></i> Đăng nhập</a>
+                <a href="" class="purchase"><i class="fa-solid fa-check"></i> Thanh toán</a>
+            </div>
+            <div class="search-bar">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" class="search-box" placeholder="Tìm kiếm sản phẩm">
+            </div>
+        </div>
+        <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> <?php echo $count.' sản phẩm - '.$money." VNĐ"?></button>
+    </div> 
+    <div class="blank"></div>
 </nav>
