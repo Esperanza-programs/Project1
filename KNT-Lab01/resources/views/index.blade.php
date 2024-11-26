@@ -1,6 +1,6 @@
 @include('layouts.header')
 
-<title>YU-GI-OH Duel Store</title>
+<title>Yu-Gi-Oh Duel Store</title>
 
 <body>
     <h1>This is Home!</h1>
