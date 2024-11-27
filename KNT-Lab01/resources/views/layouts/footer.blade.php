@@ -7,8 +7,8 @@
 </head>
 <footer>
     <div class="container-fluid bg-dark text-white" class="main">
-        <div class="row mx-5" class="socials">
-            <div class="col">
+        <div class="row mx-5 d-flex" class="socials">
+            <div class="col-6">
                 <p class="text-uppercase text-end py-5">Mạng xã hội</p>
             </div>
             <div class="col-6 text-start mt-3 py-4">
@@ -46,7 +46,7 @@
                 <ul style="list-style-type: none;" class="lh-lg">
                     <li><a href="" class="fw-light fs-6 text-uppercase text-white text-decoration-none text-white-50">yu-gi-oh duel channel</a></li>
                     <li><a href="" class="fw-light fs-6 text-capitalize text-white text-decoration-none text-white-50">hướng dẫn</a></li>
-                    <li><a href="" class="fw-light fs-6 text-capitalize text-white text-decoration-none text-white-50">chính sách riêng tư</a></li>
+                    <li><a href="http://localhost:8000/privacy" class="fw-light fs-6 text-capitalize text-white text-decoration-none text-white-50">chính sách riêng tư</a></li>
                     <li><a href="" class="fw-light fs-6 text-capitalize text-white text-decoration-none text-white-50">điều khoản và điều khiện</a></li>
                 </ul>
             </div>

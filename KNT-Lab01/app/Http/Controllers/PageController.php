@@ -21,4 +21,11 @@ class PageController extends Controller
     public function login(){
         return view("login");
     }
+
+    public function admin(){
+        return view("admin");
+    }
+    public function privacy(){
+        return view("privacy");
+    }
 }

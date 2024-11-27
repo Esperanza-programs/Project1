@@ -9,7 +9,7 @@
 <body>
     <header class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
-            <a href="http://localhost:8000" class="navbar-brand px-2    ">Yu-Gi-Oh Duel Store</a>
+            <a href="http://localhost:8000" class="navbar-brand px-2">Yu-Gi-Oh Duel Store</a>
             <ul class="navbar-nav me-auto d-flex" style="list-style-type: none">
                 <li style="list-style-type:none;" class="nav-item"><a href="http://localhost:8000" class="nav-link text-capitalize text-decoraction-none text-secondary">trang chủ</a></li>
                 <li style="list-style-type:none;" class="nav-item"><a href="http://localhost:8000/news" class="nav-link text-capitalize text-decoraction-none text-secondary">tin tức</a></li>
@@ -19,7 +19,7 @@
                 <li style="list-style-type:none;" class="nav-item"><a href="http://localhost:8000/login" class="nav-link text-capitalize text-decoraction-none text-secondary">đăng nhập</a></li>
             </ul>
             <form class="d-flex my-2">
-                <input class="form-control me-2" type="text" placeholder="Search">
+                <input class="form-control me-2" type="text" placeholder="Tìm kiếm sản phẩm">
                 <button class="btn btn-primary" type="button"><i class="bi bi-search"></i></button>
               </form>
         </div>
