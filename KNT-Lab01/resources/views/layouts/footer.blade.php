@@ -11,11 +11,11 @@
             <div class="col">
                 <p class="text-uppercase text-end py-5">Mạng xã hội</p>
             </div>
-            <div class="col text-start my-4 py-3">
-                    <a href="" class="btn bg-white text-black mx-2"><i class="bi bi-facebook"></i></a>
-                    <a href="" class="btn bg-white text-black mx-2"><i class="bi bi-google"></i></a>
-                    <a href="" class="btn bg-white text-black mx-2"><i class="bi bi-instagram"></i></a>
-                    <a href="" class="btn bg-white text-black mx-2"><i class="bi bi-youtube"></i></a>   
+            <div class="col-6 text-start mt-3 py-4">
+                    <a href="" class="btn bg-white text-black mx-1"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="btn bg-white text-black mx-1"><i class="bi bi-google"></i></a>
+                    <a href="" class="btn bg-white text-black mx-1"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="btn bg-white text-black mx-1"><i class="bi bi-youtube"></i></a>   
             </div>
             <hr>
         </div>
@@ -59,5 +59,8 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <div class="container-fluid bg-black text-center text-white py-3">
+        Điều hành bởi YU-GI-OH DUEL ACADEMY - VietDuc Game Production. MSDN: 0313685295 - Cấp ngày 09/3/2016 tại Sở Kế hoạch và Đầu tư TP.HCM
     </div>
 </footer>

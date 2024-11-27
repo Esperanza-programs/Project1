@@ -19,3 +19,7 @@ Route::get('/', [PageController::class,'index'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 
 Route::get('/test', [PageController::class,'test'])->name('test');
+
+Route::get('/news', [PageController::class,'new'])->name('new');
+
+Route::get('/login', [PageController::class,'login'])->name("login");

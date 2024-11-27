@@ -14,4 +14,11 @@ class PageController extends Controller
         return view("about");
     }
 
+    public function new(){
+        return view("new");
+    }
+
+    public function login(){
+        return view("login");
+    }
 }
